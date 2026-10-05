@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SECURE PROGRAMMING E-PORTFOLIO | TTTN3133</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #4a2c3a;
+    background: #fffdf5;
+  }
+  header {
+    background: #ffd6e8;
+    color: #6b2c4a;
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #6b2c4a;
+  }
+  header p {
+    font-size: 1rem;
+    color: #7a3a55;
+    font-weight: 500;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    background: #f8a5c2;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(248,165,194,0.4);
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.75rem 1rem;
+    gap: 0.5rem 1.5rem;
+  }
+  nav a {
+    color: #6b2c4a;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.25rem 0.5rem;
+    transition: color 0.2s;
+  }
+  nav a:hover { color: #fff5b8; }
+  main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.25rem; }
+  section { margin-bottom: 3rem; scroll-margin-top: 80px; }
+  section h2 {
+    font-size: 1.6rem;
+    color: #e07a9e;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #ffe9a8;
+    padding-bottom: 0.5rem;
+  }
+  .card {
+    background: #fffdf8;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(255,214,232,0.5);
+    border-left: 4px solid #ffd6e8;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(255,214,232,0.8);
+  }
+  .card h3 {
+    color: #e07a9e;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .card p { margin-bottom: 0.75rem; color: #5a3a48; }
+  .video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 0.75rem 0;
+    background: #000;
+    border: 3px solid #ffe9a8;
+  }
+  .video-wrap iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: 0;
+  }
+  .btn {
+    display: inline-block;
+    background: #e07a9e;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    transition: background 0.2s, color 0.2s;
+  }
+  .btn:hover { background: #ffe9a8; color: #6b2c4a; }
+  .group-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+  .member {
+    background: #fffdf8;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #ffe9a8;
+    box-shadow: 0 1px 4px rgba(255,214,232,0.4);
+  }
+  .member strong { display: block; color: #e07a9e; }
+  .member span { font-size: 0.85rem; color: #8a5a6a; }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .skill-tag {
+    background: #ffe9a8;
+    color: #6b2c4a;
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  footer {
+    background: #e07a9e;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+  }
+  footer p { font-size: 0.9rem; opacity: 0.95; }
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.5rem; }
+    nav a { font-size: 0.85rem; }
+    section h2 { font-size: 1.3rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>SECURE PROGRAMMING E-PORTFOLIO</h1>
+  <p>TTTN3133 — INSTRUCTOR: NUR HANIS SABRINA</p>
+  <p>GROUP PROJECT: SECURE VULNERABILITY SOLUTIONS</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#labs">LABS</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="#reflection">REFLECTION</a></li>
+    <li><a href="#skills">SKILLS</a></li>
+    <li><a href="#resources">RESOURCES</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- HOME -->
+  <section id="home">
+    <h2>HOME</h2>
+    <p>[PASTE_SCENARIO]</p>
+  </section>
+
+  <!-- GROUP MEMBERS -->
+  <section id="group">
+    <h2>GROUP MEMBERS</h2>
+    <div class="group-grid">
+      <div class="member">
+        <strong>HANIS NABIHAH BINTI MOHD JAINI</strong>
+        <span>MATRIC: A220969 — GROUP LEADER</span>
+        <p>[PASTE_CONTRIBUTION_1]</p>
+      </div>
+      <div class="member">
+        <strong>DYAN BINTI AZIZOL</strong>
+        <span>MATRIC: A216805 — TEAM MEMBER</span>
+        <p>[PASTE_CONTRIBUTION_2]</p>
+      </div>
+      <div class="member">
+        <strong>NUR AMALIA MARSYA BINTI MOHD EFFANDI</strong>
+        <span>MATRIC: A216645 — TEAM MEMBER</span>
+        <p>[PASTE_CONTRIBUTION_3]</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LABS (6 CASES) -->
+  <section id="labs">
+    <h2>LABS — VULNERABILITY CASES</h2>
+
+    <article class="card">
+      <h3>CASE 1: LOGIN TEST</h3>
+      <p>DEMONSTRATION OF A VULNERABLE LOGIN IMPLEMENTATION AND ITS SECURE FIX.</p>
+      <div class="video-wrap">
+        <iframe src="[PASTE_YOUTUBE_LINK_1]" title="CASE 1 LOGIN TEST DEMO" allowfullscreen></iframe>
+      </div>
+      <p><em>REFLECTION:</em> [PASTE_REFLECTION_1]</p>
+    </article>
+
+    <article class="card">
+      <h3>CASE 2: DATA 1</h3>
+      <p>INSECURE DATA STORAGE VULNERABILITY AND ITS RESOLUTION.</p>
+      <div class="video-wrap">
+        <iframe src="[PASTE_YOUTUBE_LINK_2]" title="CASE 2 DATA 1 DEMO" allowfullscreen></iframe>
+      </div>
+      <p><em>REFLECTION:</em> [PASTE_REFLECTION_2]</p>
+    </article>
+
+    <article class="card">
+      <h3>CASE 3: DATA 2</h3>
+      <p>INSECURE DATA TRANSMISSION VULNERABILITY AND ITS RESOLUTION.</p>
+      <div class="video-wrap">
+        <iframe src="[PASTE_YOUTUBE_LINK_3]" title="CASE 3 DATA 2 DEMO" allowfullscreen></iframe>
+      </div>
+      <p><em>REFLECTION:</em> [PASTE_REFLECTION_3]</p>
+    </article>
+
+    <article class="card">
+      <h3>CASE 4: SQL INJECTION</h3>
+      <p>SQL INJECTION VULNERABILITY AND ITS FIX USING PARAMETERISED QUERIES.</p>
+      <div class="video-wrap">
+        <iframe src="[PASTE_YOUTUBE_LINK_4]" title="CASE 4 SQL INJECTION DEMO" allowfullscreen></iframe>
+      </div>
+      <p><em>REFLECTION:</em> [PASTE_REFLECTION_4]</p>
+    </article>
+
+    <article class="card">
+      <h3>CASE 5: PLACEHOLDER 1</h3>
+      <p>ADDITIONAL VULNERABILITY CASE DEMONSTRATED AND RESOLVED.</p>
+      <div class="video-wrap">
+        <iframe src="[PASTE_YOUTUBE_LINK_5]" title="CASE 5 DEMO" allowfullscreen></iframe>
+      </div>
+      <p><em>REFLECTION:</em> [PASTE_REFLECTION_5]</p>
+    </article>
+
+    <article class="card">
+      <h3>CASE 6: PLACEHOLDER 2</h3>
+      <p>ADDITIONAL VULNERABILITY CASE DEMONSTRATED AND RESOLVED.</p>
+      <div class="video-wrap">
+        <iframe src="[PASTE_YOUTUBE_LINK_6]" title="CASE 6 DEMO" allowfullscreen></iframe>
+      </div>
+      <p><em>REFLECTION:</em> [PASTE_REFLECTION_6]</p>
+    </article>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>PROJECTS</h2>
+
+    <article class="card">
+      <h3>PROJECT 2: SECURE APPLICATION</h3>
+      <p><strong>PROBLEM STATEMENT:</strong> [PASTE_PROBLEM_STATEMENT]</p>
+      <div class="video-wrap">
+        <iframe src="[PASTE_VSR_LINK]" title="PROJECT 2 VSR DEMO" allowfullscreen></iframe>
+      </div>
+      <a class="btn" href="[PASTE_GITHUB_LINK]" target="_blank" rel="noopener">VIEW ON GITHUB</a>
+    </article>
+  </section>
+
+  <!-- REFLECTION -->
+  <section id="reflection">
+    <h2>REFLECTION &amp; LEARNING JOURNEY</h2>
+    <p>[PASTE_REFLECTION_JOURNEY]</p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>SKILLS &amp; TECH STACK</h2>
+    <div class="skills-list">
+      <span class="skill-tag">KOTLIN</span>
+      <span class="skill-tag">JETPACK COMPOSE</span>
+      <span class="skill-tag">ROOM</span>
+      <span class="skill-tag">RETROFIT</span>
+      <span class="skill-tag">FIREBASE FIRESTORE</span>
+      <span class="skill-tag">SQL INJECTION PREVENTION</span>
+      <span class="skill-tag">ENCRYPTEDSHAREDPREFERENCES</span>
+      <span class="skill-tag">HTTPS / CERTIFICATE PINNING</span>
+      <span class="skill-tag">BCRYPT HASHING</span>
+      <span class="skill-tag">ANDROID KEYSTORE</span>
+      <span class="skill-tag">GIT &amp; GITHUB</span>
+    </div>
+  </section>
+
+  <!-- RESOURCES -->
+  <section id="resources">
+    <h2>RESOURCES</h2>
+    <p><strong>LIBRARIES &amp; APIS:</strong> JETPACK COMPOSE, ROOM, RETROFIT, FIREBASE FIRESTORE, ANDROID KEYSTORE</p>
+    <p style="margin-top: 0.5rem;"><strong>ACKNOWLEDGEMENT:</strong> AI TOOLS (CLAUDE/CHATGPT) WERE USED TO ASSIST WITH CODE SUGGESTIONS, DEBUGGING, AND GENERATING THE STRUCTURE OF THIS E-PORTFOLIO. ALL CODE WAS REVIEWED, TESTED, AND UNDERSTOOD BY THE GROUP MEMBERS.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 NUR AMALIA MARSYA BINTI MOHD EFFANDI (A216645)</p>
+  <p>TTTN3133 SECURE PROGRAMMING — INSTRUCTOR: NUR HANIS SABRINA</p>
+</footer>
+
+</body>
+</html>
